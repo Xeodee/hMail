@@ -16,11 +16,12 @@
                 <button type="submit" autofocus="true">GAS PEDAL!!!</button>
             </form>
             <br>
-            <h1>Add Your Targets</h1>
+
 
             <div class="line">
 
             <div class="unit size1of5">
+                <h1>Add a College</h1>
                 <form action="" id="newCollegeForm">
                 <ul>
                     <li><label for="cName">Coach Name</label></li>
@@ -40,13 +41,25 @@
                     <li class="error mascotName empty"><p class="red">This field is empty</p></li>
                     <li><input type="text" id="mascot"/></li>
                     <li>&nbsp;</li>
-                    <li><input type="submit" value="Add Item" id="addCollege"/></li>
+                    <li><input type="button" value="Add Item" id="addCollege" onclick="addNewCollege()"/></li>
                 </ul>
                 </form>
             </div>
 
              <div class="unit size2of5">
-                 <p>test size</p>
+                 <h1>Current List</h1>
+                 <div class="row">
+                     <div class="lastUnit size1of1 currentList">
+
+                         <!-- This is Where the XML INFO is Inserted -->
+
+
+                         <!-- List Ends -->
+
+                     </div>
+                 </div>
+
+
              </div>
                 <div class="lastUnit size2of5">
                     <p>CONSOLE</p>
@@ -56,16 +69,8 @@
         </div>
     </div>
     <script src="scripts/jQuery.1.10.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-            $(document).ready(function(){
-               $('#cName, #cEmail, #college, #mascot').focusin(function(){
-                   var currentVal = $(this).val();
-                   $(this).on().change(function(){
-                       console.log($(this).val());
-                   });
-               });
-            });
-    </script>
+    <script src="scripts/jQuery.xeoMailer.js"></script>
+
 </body>
 
 
@@ -94,3 +99,5 @@
                     </div>
 
                 </section>-->
+
+`

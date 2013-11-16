@@ -37,4 +37,16 @@ b{display:block;background-repeat:no-repeat;font-size:1%;position:relative;z-ind
 
 /* Additional Coach List */
 .error{display: none;}
-.error p.red{font-weight: bold;color: darkred; font-size: 12px; padding: 0!important;}
+.error p.red{font-weight: bold;color: darkred; font-size: 12px; padding: 0!important; margin: 0!important}
+
+table.collegeList{
+    margin-bottom: 10px;
+    width:100%;
+}
+
+table.collegeList td.name{
+    width:20%;
+}
+table.collegeList td.value{
+    width: 80%;
+}
