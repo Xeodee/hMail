@@ -3,7 +3,9 @@
 #### What is hMail?
 hMail is a PHP based mailer that was developed for my cousin to mail multiple softball tallent scouts to come see her games. 
 
-For her to use the mailer it was very simple.
+For her to use the mailer it was very simple. It pulls the info from data/list.xml
+
+## NOTE: This is curretly not working, this was used a few years back to help her get a scholarship for playing softball in college. Needless to say, she is now in college with a softball scholarship!! Go Hannah!
 
 * Paste the message to the scouts in the message field
 * Add new scout would require a few fields
